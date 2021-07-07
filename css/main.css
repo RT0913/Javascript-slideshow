@@ -1,0 +1,43 @@
+body {
+  background-color: #fffff4;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+h2 {
+  margin-left: 130px;
+}
+
+.slick_lists {
+  margin: 50px auto;
+  width: 70%;
+}
+
+.slick_lists .slick-list {
+  overflow: visible;
+}
+
+.slick_contents img{
+  height: 40vw;
+  width: 100%;
+}
+
+.slick-prev::before, .slick-next::before {
+  color: black !important;
+}
+
+.slick-prev, .slick-next {
+  z-index: 1;
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: 0.2;
+}
+
+.slick-current {
+  opacity: 1;
+}
